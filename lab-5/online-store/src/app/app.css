@@ -1,0 +1,43 @@
+.page {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  margin: 0 0 14px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.cat-btn {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cat-btn:hover {
+  background: #f5f5f5;
+}
+
+.cat-btn.active {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.hint {
+  padding: 12px 14px;
+  border: 1px dashed #ddd;
+  border-radius: 12px;
+}
